@@ -4,7 +4,8 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.github.pagehelper.PageInfo;
-import com.mmcro.cms.entity.Article;
+import com.hanbo.cms.entity.Article;
+import com.hanbo.cms.service.ArticleService;
 
 public class TestArticle  extends BaseTest{
 	

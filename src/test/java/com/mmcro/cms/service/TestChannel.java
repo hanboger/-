@@ -6,8 +6,10 @@ import java.util.List;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.mmcro.cms.entity.Cat;
-import com.mmcro.cms.entity.Channel;
+import com.hanbo.cms.entity.Cat;
+import com.hanbo.cms.entity.Channel;
+import com.hanbo.cms.service.CatService;
+import com.hanbo.cms.service.ChannelService;
 
 public class TestChannel  extends BaseTest{
 	

@@ -5,7 +5,8 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.mmcro.cms.entity.User;
+import com.hanbo.cms.entity.User;
+import com.hanbo.cms.service.UserService;
 
 public class TestUser  extends BaseTest{
 	

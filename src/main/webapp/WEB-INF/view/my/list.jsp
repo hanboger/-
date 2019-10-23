@@ -26,7 +26,8 @@ function del(id) {
 	
 	$.post("/user/delArticle",{id:id},function(data){
 		if(data){
-			alert('删除成功')			
+			alert('删除成功')	
+			history.go(0);
 		}else{
 			alert('删除失败')
 		}
